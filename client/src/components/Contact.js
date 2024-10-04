@@ -29,7 +29,7 @@ function Contact() {
         };
       
         try {
-          const response = await fetch('https://portifolio2-client.vercel.app/', {
+          const response = await fetch('api/contact', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
